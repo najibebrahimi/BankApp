@@ -33,17 +33,7 @@ Detta projekt är en självständig ASP.NET Core-lösning för banken, utvecklad
   - **richard.chalk@systementor.se** (Admin, lösenord: Hejsan123#)
   - **richard.erdos.chalk@gmail.se** (Cashier, lösenord: Hejsan123#)
 
-- **UI & Layout**  
-  Applikationen använder en anpassad layout baserad på en gratis Bootstrap-template. Sajten innehåller:
-  - Porträttbild
-  - CV-nedladdningsknapp
-  - Navbar med länkar till sociala medier/GitHub
-  - About Me sektion
-  - Kunskapssektion med teknologier
-  - Portföljsida med projektinformation (länk till GitHub och live-demo)
-  - Referenssektion
-  - Kontaktformulär
-  - Footer
+
 
 ## Teknologier & Verktyg
 
