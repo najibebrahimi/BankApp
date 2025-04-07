@@ -38,7 +38,7 @@ Detta projekt är en självständig ASP.NET Core-lösning för banken, utvecklad
 ## Teknologier & Verktyg
 
 - **Backend:** ASP.NET Core, Entity Framework Core (Database First)
-- **Frontend:** ASP.NET Core Razor Pages (alternativt MVC om så önskas), Bootstrap
+- **Frontend:** ASP.NET Core Razor Pages, Bootstrap
 - **Autentisering:** ASP.NET Core Identity
 - **Övrigt:** AutoMapper, inbyggd inputvalidering enligt best practices, OOP med tydliga ViewModels
 - **Databas:** Använd den tillhandahållna databasen (länk finns i projektbeskrivningen).  
