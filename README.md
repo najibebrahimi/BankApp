@@ -19,7 +19,7 @@ Detta projekt är en självständig ASP.NET Core-lösning för banken, utvecklad
   Sök efter kund på namn och stad. Sökresultatet visar kundnummer, personnummer, namn, adress och stad. Resultatet är paginerat med 50 poster per sida.
 
 - **Kontobild**  
-  När du klickar på ett kontonummer i kundbilden visas en sida med kontoinformation (kontonummer och saldo) samt transaktioner i fallande datumordning. Vid fler än 20 transaktioner laddas ytterligare 20 poster med JavaScript/AJAX vid knapptryckning.
+  När du klickar på ett kontonummer i kundbilden visas en sida med kontoinformation (kontonummer och saldo) samt transaktioner i fallande datumordning. Vid fler än 20 transaktioner laddas ytterligare 20 poster med JavaScript vid knapptryckning.
 
 - **Transaktioner**  
   Systemet hanterar insättningar, uttag och överföringar. Saldo ändras endast via en transaktion (inga direkta ändringar). Systemet kontrollerar att uttag eller överföringar inte överstiger kontots saldo.
