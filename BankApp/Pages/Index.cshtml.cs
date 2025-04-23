@@ -25,26 +25,27 @@ namespace BankApp.Pages
             try
             {
                 // Fetch statistics asynchronously
-                var customerCountTask = _transactionService.GetCustomerCountAsync();
-                var accountCountTask = _transactionService.GetAccountCountAsync();
-                var totalBalanceTask = _transactionService.GetTotalBalanceAsync();
+                var customerCountTask = await _transactionService.GetCustomerCountAsync();
+                var accountCountTask = await _transactionService.GetAccountCountAsync();
+                var totalBalanceTask = await _transactionService.GetTotalBalanceAsync();
 
                 // Run all tasks concurrently
-                await Task.WhenAll(customerCountTask, accountCountTask, totalBalanceTask);
+                
+                //await Task.WhenAll(customerCountTask, accountCountTask, totalBalanceTask);
 
                 // Assign results
-                Statistics.CustomerCount = customerCountTask.Result;
-                Statistics.AccountCount = accountCountTask.Result;
-                Statistics.TotalBalance = totalBalanceTask.Result;
+                Statistics.CustomerCount = customerCountTask;
+                Statistics.AccountCount = accountCountTask;
+                Statistics.TotalBalance = totalBalanceTask;
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to fetch statistics");
                 Statistics = new Statistics
                 {
-                    CustomerCount = 475,
-                    AccountCount = 1254,
-                    TotalBalance = 14141
+                    CustomerCount = -999,
+                    AccountCount = -999,
+                    TotalBalance = -999
                 };
             }
         }
