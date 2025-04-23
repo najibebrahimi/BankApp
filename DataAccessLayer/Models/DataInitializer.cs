@@ -19,7 +19,6 @@ public class DataInitializer
         _dbContext.Database.Migrate();
         SeedRoles();
         SeedUsers();
-       
     }
 
     // Här finns möjlighet att uppdatera dina användares loginuppgifter

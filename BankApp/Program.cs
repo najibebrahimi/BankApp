@@ -45,8 +45,9 @@ builder.Services.AddTransient<Services.CustomerService>();
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
+{
     scope.ServiceProvider.GetService<DataInitializer>().SeedData();
-
+}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
