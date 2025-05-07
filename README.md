@@ -5,7 +5,7 @@
 
 ## Introduktion
 
-Detta projekt är en självständig ASP.NET Core-lösning för banken, utvecklad för att hantera kunder, deras konton med saldo samt transaktioner. Lösningen är uppbyggd enligt OOP-principer med tydlig separation mellan databasentiteter och ViewModels. Applikationen är driftsatt på Azure och koden finns i ett privat GitHub-repository där jag (RichardChalk) är inbjuden som admin/collaborator.
+Detta projekt är en självständig ASP.NET Core-lösning för banken, utvecklad för att hantera kunder, deras konton med saldo samt transaktioner. Lösningen är uppbyggd enligt OOP-principer med tydlig separation mellan databasentiteter och ViewModel.
 
 ## Funktionaliteter
 
