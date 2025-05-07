@@ -41,7 +41,7 @@ Detta projekt är en självständig ASP.NET Core-lösning för banken, utvecklad
 - **Frontend:** ASP.NET Core Razor Pages, Bootstrap
 - **Autentisering:** ASP.NET Core Identity
 - **Övrigt:** AutoMapper, inbyggd inputvalidering enligt best practices, OOP med tydliga ViewModels
-- **Databas:** Använd den tillhandahållna databasen (länk finns i projektbeskrivningen).  
+- **Databas:** SQL server 
   **Viktigt:** Efter nedladdning, kör följande SQL-syntax på databasen:
   ```sql
   ALTER AUTHORIZATION ON DATABASE::[database-name] TO [sa]
